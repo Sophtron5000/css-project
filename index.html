@@ -4,21 +4,44 @@
     <head>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="./style.css">
-        <title>Info Submission</title>
+        <title>Info Kitten</title>
     </head>
 
     <body>
-        <header>
-            <h1>Info Submission</h1>
+        <header class="header">
+            <h1>Info Kitten</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#name">Name</a>
+                    </li>
+                    <li>
+                        <a href="#phone">Phone Number</a>
+                    </li>
+                    <li>
+                        <a href="#email">Email</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <figure>
-            <img src="./kitten.jfif"/>
+            <img id="img" src="./kitten.jfif" alt="kitten sleeping on lap"/>
             <figcaption>Can I has your email?</figcaption>
         </figure>
+           <h2 class="h2">This cute kitten needs your contact information!</h2>
            
-        <form>
-            <label>email?</label>
-            <input type="text" placeholder="email!">
+           <p id="text">Hello I'm collecting personal information for no good reasons, meow!</p>
+        <form class="form">
+            <label >Name</label>
+            <input id="name" type="text" placeholder="Name..">
+            <button>submit</button>
+            <br>
+            <label  >Phone Number</label>
+            <input id="phone" type="text" placeholder="Phone Number..">
+            <button>submit</button>
+            <br>
+            <label  >Email</label>
+            <input id="email" type="text" placeholder="Email..">
             <button>submit</button>
         </form>
 

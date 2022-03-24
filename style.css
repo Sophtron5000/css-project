@@ -1,34 +1,67 @@
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
 header { 
     position: fixed;
     top: 0;
     z-index: 2;
     width: 100%;
     height: 100px;
-    border-bottom: 10px solid darkblue;
-    background-color: lightblue;
+    border-bottom: 10px solid plum ;
+    background-color: pink
 }
-
 body {
-    background-color:darkcyan
+    background-color: peachpuff
 }
 
-h1{
+h1 {
     text-align: center;
 }
-img {
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#img {
     width: 300px;
     height: 300px;
 }
 
 figure {
     position: relative;
+    margin: 300px 400px
 
 }
 
 figure caption {
+  text-align: center;
+}
 
+.form {
+    display: block;
+    margin: 0px 300px 0px 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }
